@@ -1,0 +1,15 @@
+<html>
+<head>
+<title> Database Details</title>
+</head>
+<body>
+<h1>Database Details</h1>
+<form action="" method="POST">
+<table>
+{{ form.as_table }}
+</table>
+{% csrf_token %}
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
